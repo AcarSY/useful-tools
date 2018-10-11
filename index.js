@@ -17,7 +17,7 @@ class index {
     const tarih = new Date(date)
     var gun = tarih.getDay() + 1
     if(gun.toString().length === 1) {
-        var gun === Number('0' + gun)
+        var gun = Number('0' + gun)
     }
     const ay = tarih.getMonth() + 1
     const yil = tarih.getFullYear()
